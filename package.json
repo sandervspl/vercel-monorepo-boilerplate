@@ -10,7 +10,8 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "heroku-postbuild": "npx turbo run build --scope=server --include-dependencies --no-deps"
   },
   "devDependencies": {
     "@types/express": "4.17.13",
