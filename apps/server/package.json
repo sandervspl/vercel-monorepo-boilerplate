@@ -5,11 +5,6 @@
   "author": "sandervspl@github",
   "license": "ISC",
   "scripts": {
-    "dev": "netlify dev:exec pnpm run dev:lambda",
-    "dev:lambda": "NODE_ENV=development pnpm run serve",
-    "build": "netlify-lambda build functions",
-    "serve": "netlify-lambda serve functions",
-    "prebuild": "test \"$CI\" = true && npx pnpm install -r --store=node_modules/.pnpm-store || echo skiping pnpm install"
   },
   "devDependencies": {
     "@babel/preset-typescript": "7.16.7",
@@ -24,7 +19,6 @@
     "eslint-plugin-import": "2.25.4",
     "eslint-plugin-jsx-a11y": "6.5.1",
     "eslint-plugin-react": "7.28.0",
-    "eslint-plugin-react-hooks": "4.3.0",
-    "netlify-lambda": "2.0.15"
+    "eslint-plugin-react-hooks": "4.3.0"
   }
 }

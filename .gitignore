@@ -32,10 +32,6 @@ yarn-error.log*
 # turbo
 .turbo
 
-# netlify
-package-lock.json
-yarn.lock
-
 # project
 dist/
 .env.local
