@@ -29,6 +29,6 @@ npm run dev
 Follow the [Vercel instructions](https://vercel.com/docs/concepts/git/monorepos#turborepo) for Turborepo.
 
 
-### Server
+### Server (Heroku)
 
-🚧 WIP
+Simply create an app on Heroku and link the git repository. Make sure to turn on auto-deploy.

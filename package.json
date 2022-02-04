@@ -9,8 +9,7 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
-    "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "start": "node ./apps/server/dist/index.js",
     "heroku-postbuild": "npx turbo run build --scope=server --include-dependencies --no-deps"
   },
   "devDependencies": {

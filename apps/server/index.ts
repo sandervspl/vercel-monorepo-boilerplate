@@ -1,9 +1,9 @@
+import * as i from '@project/types';
 import express from "express";
-// import dotenv from "dotenv";
 import cors from "cors";
 
-//Load env vars
-// dotenv.config({ path: "./config/config.env" });
+const foo: i.Foo = 'bar';
+console.log({foo});
 
 const app = express();
 
