@@ -4,13 +4,12 @@
   "private": true,
   "author": "sandervspl@github",
   "license": "ISC",
-  "scripts": {
-  },
+  "scripts": {},
   "devDependencies": {
     "@babel/preset-typescript": "7.16.7",
     "@types/aws-lambda": "8.10.92",
     "@types/node": "17.0.12",
-    "@project/types": "workspace:*",
+    "@project/types": "*",
     "eslint": "8.7.0",
     "eslint-config-next": "12.0.9",
     "eslint-config-react-app": "7.0.0",

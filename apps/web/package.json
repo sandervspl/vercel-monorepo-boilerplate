@@ -8,8 +8,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "prebuild": "test \"$CI\" = true && npx pnpm install -r --store=node_modules/.pnpm-store || echo skiping pnpm install"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "12.0.9",
@@ -18,7 +17,7 @@
   },
   "devDependencies": {
     "@types/react": "17.0.38",
-    "@project/types": "workspace:*",
+    "@project/types": "*",
     "eslint": "8.7.0",
     "eslint-config-next": "12.0.9",
     "eslint-config-react-app": "7.0.0",

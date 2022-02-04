@@ -8,18 +8,18 @@ The frontend uses NextJS and the backend uses AWS Lambda functions.
 
 ### Build
 
-To build all apps and packages, run the following command:
+To build all apps and packages, run the following command in root:
 
 ```sh
-pnpm run build
+npm run build
 ```
 
 ### Develop
 
-To develop all apps and packages, run the following command:
+To develop all apps and packages, run the following command in root:
 
 ```sh
-pnpm run dev
+npm run dev
 ```
 
 ### Deployment
