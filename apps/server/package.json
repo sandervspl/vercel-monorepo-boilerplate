@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "node esbuild.config.js",
+    "dev": "NODE_ENV=development node esbuild.config.js",
     "start": "node dist/index.js"
   },
   "keywords": [],
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "@project/types": "*",
-    "esbuild": "0.14.18"
+    "esbuild": "0.14.18",
+    "node-notifier": "10.0.1"
   }
 }
