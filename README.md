@@ -6,7 +6,7 @@ The frontend uses NextJS and the backend uses AWS Lambda functions.
 
 
 
-### Build
+## Build
 
 To build all apps and packages, run the following command in root:
 
@@ -14,7 +14,7 @@ To build all apps and packages, run the following command in root:
 npm run build
 ```
 
-### Develop
+## Develop
 
 To develop all apps and packages, run the following command in root:
 
@@ -22,13 +22,7 @@ To develop all apps and packages, run the following command in root:
 npm run dev
 ```
 
-### Deployment
+## Examples
 
-### Web
-
-Follow the [Vercel instructions](https://vercel.com/docs/concepts/git/monorepos#turborepo) for Turborepo.
-
-
-### Server
-
-🚧 WIP
+- [Express + Heroku server](https://github.com/sandervspl/vercel-monorepo-boilerplate/tree/heroku-nodejs-example)
+- [Serverless Functions](https://github.com/sandervspl/vercel-monorepo-boilerplate/tree/lambda-server-example)
